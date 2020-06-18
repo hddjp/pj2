@@ -1,0 +1,11 @@
+<?php
+if($_GET['con']==1){
+    setcookie("ranpic","1",time()+60,"/pj2");
+}
+if($_GET['con']==2){
+    setcookie("Username","",-1,"/pj2");
+}
+if($_GET['con']==3){
+    setcookie("ranpic","",-1,"/pj2");
+}
+?>

@@ -1,0 +1,210 @@
+body{
+    margin:0%;
+}
+
+header{
+    text-align: center;
+    height: 70px;
+}
+
+nav{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.navigation{
+    margin: 3%;
+    margin-top: 0%;
+    font-size: 0.9rem;
+}
+
+.dropbt{
+    font-size: 0.9rem;
+    font-weight: bold;
+    height: 2em;
+    letter-spacing: 0.3em;
+    vertical-align: top;
+}
+
+.dropdown{
+    float:right;
+    margin-right: -3%;
+}
+
+.dropdown-content{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    vertical-align: middle; 
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 3% ,4%;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 80%;
+    height: 2em;
+}
+
+.dropbt:hover +.dropdown-content{
+    display: block;
+}
+
+.dropdown-content:hover{
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #1c1c1c
+}
+
+img.list{
+    position:relative;
+    top:2px
+}
+
+img.manu{
+    position: relative;
+    top:5px;
+    right:5px;
+}
+
+main{
+    background-color: #1c1c1c;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+h1{
+    color: white;
+    font-size: 23px;
+    padding-right: 0%;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+div.search{
+    text-align: center;
+    margin-bottom: 60px;
+    padding-right: 10%;
+    margin-top: 20px;
+}
+
+.search{
+    background-color: #1c1c1c;
+    color: white;
+    height: 40px;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+    outline: none;
+    font-size: 16px;
+}
+
+select.search{
+    border: none;
+    margin-bottom: 10px;
+}
+
+input.search[type="text"]{
+    background-color: #3a3637;
+    border: none;
+    outline: black;
+    width: 50%;
+    height: 30px;
+    color: white;
+    letter-spacing: 0.1em;
+    margin-left: 0%;
+}
+
+input.search[type="submit"]{
+    background-image: url(../../img/others/search.png);
+    border: none;
+    width: 50px;
+    height: 31px;
+    margin-top: 5px;
+    outline: none;
+    position: absolute;
+}
+
+table{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+td{
+    padding-top:6%;
+    padding-bottom: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+    vertical-align: top;
+}
+
+p.title{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    margin-bottom: 1em;
+}
+
+p.description{
+    overflow:hidden;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    -webkit-line-clamp:4;
+    -webkit-box-orient:vertical;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+}
+
+tr{
+    border: 3px #ff9800 solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+#page{
+    margin-top: 30px;
+    margin-left: 0%;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+#page a{
+    color: white;;
+    margin:10px;
+    font-weight: bold;
+}
+
+#page a.pagenum{
+    border-bottom: white 1px solid;
+}
+
+footer{
+    color: gray;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-bottom: 50px;
+    position: relative;
+    letter-spacing: 0.1em;
+    text-align: center;  
+    font-size: 10px;
+}
+
+img.pic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+div.pic{
+    height: 100px;
+    width: 100px;
+    margin-right: 10%;
+}

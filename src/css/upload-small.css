@@ -1,0 +1,12 @@
+main{
+    float: none;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-right: none;
+    position: absolute;
+}
+
+footer{
+    position: relative;
+    top:855px;
+}

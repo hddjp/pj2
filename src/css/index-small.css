@@ -1,0 +1,15 @@
+main{
+    width: 96%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+footer{
+    float:right;
+    margin-top: 80px;
+}
+
+img[name="head"]{
+    margin-left: 10.8%;
+    float: none;
+}

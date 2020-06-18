@@ -1,0 +1,17 @@
+main{
+    float: right;
+    margin-right: 2%;
+}
+
+div#div1{
+    margin-top: 0px;
+}
+
+footer{
+    margin-top: 1989px;
+}
+
+img[name="head"]{
+    float: right;
+    margin-right: 10.8%;
+}

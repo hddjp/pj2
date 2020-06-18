@@ -1,0 +1,14 @@
+main{
+    float: none;
+    margin-left: 1%;
+    margin-right: none;
+}
+
+hr{
+    border: none;
+    height: 1.5px;
+    width: 82%;
+    background-color: #ff9800;
+    margin-top: 20px;
+    margin-left: 9%;
+}

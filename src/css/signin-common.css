@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+main{
+    background-color: #1c1c1c;
+    width:490px;
+    height: 550px;
+    top:50%;
+    left: 50%;
+    position: absolute;;
+    margin-left: -245px;
+    margin-top: -275px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    padding-top: 40px;
+}
+
+img.name,img.password{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top:14px;
+    margin-right: 20px;
+}
+
+input.name,input.password{
+    background-color: #3a3a3a;
+    color: white;
+    letter-spacing: 0.2em;
+    border: solid 2px #666666;
+    width: 300px;
+    height: 40px;
+    outline:none;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+p.contents{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#signin{
+    width: 40%;
+    height: 50px;
+    background-color: #ff9800;
+    margin-top: 40px;
+    margin-left: 30%;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    letter-spacing: 1em;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+p.register{
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 150px;
+    margin-left: 5px;
+}
+
+p.register a{
+    color: #cccccc;
+}
+
+footer{
+    color: gray;
+    margin-top: 700px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    font-size: small;
+    letter-spacing: 0.1em;
+    text-align: center;
+}

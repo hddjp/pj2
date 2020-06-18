@@ -1,0 +1,221 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+header{
+    background-color:#1c1c1c;
+    text-align: center;
+    height: 70px;
+}
+
+nav{
+    margin-top: 30px;
+    float: left;
+    margin-left: 10%;
+    width: 90%;
+}
+
+.navigation{
+    font-weight:bold;
+    font-size: large;
+    margin: 1em;
+    margin-top: 0px;
+    color: white;
+    vertical-align: top;
+    letter-spacing: 0.3em;
+    float: left;
+}
+
+.dropbt{
+    background-color: #1c1c1c;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    width: 8em;
+    height: 2em;
+    letter-spacing: 0.3em;
+    vertical-align: top;
+}
+
+.dropdown{
+    position: relative;
+    bottom: 5px;
+    float:right;
+    margin-right:10% ;
+}
+
+.dropdown-content{
+    font-weight: bold;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    vertical-align: middle; 
+    z-index: 9999;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    width: 8em;
+    height: 2em;
+}
+
+.dropbt:hover +.dropdown-content{
+    display: block;
+}
+
+.dropdown-content:hover{
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #1c1c1c
+}
+
+img.list{
+    position:relative;
+    top:2px
+}
+
+img.manu{
+    position: relative;
+    top:5px;
+    right:5px;
+}
+
+main{
+    background-color: #1c1c1c;
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 1100px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+    text-align: center;
+}
+
+h2{
+    font-size: 15px;
+    font-style: italic;
+    color: #aaaaaa;
+    text-align: center;
+    margin-right: 50px;
+}
+
+button.favor{
+    border: none;
+    background-color: #ff9800;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;    
+    padding: 0px;
+    padding-top: 1.5px;
+    letter-spacing: 0.4em;
+    float: right;
+    position: relative;
+    bottom: 25px;
+    right: 270px;
+    outline: none;
+    cursor: pointer;
+}
+
+img.favor{
+    width:26px;
+    height: 26px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+hr{
+    border: none;
+    height: 1.5px;
+    width: 900px;
+    background-color: #ff9800;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+table.table1{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+td[name="infor"]{
+    vertical-align: middle;
+    padding-left: 120px;
+}
+
+img.picture{
+    width: 100%;
+    height: 100%;
+    border: dashed #ff9800 4px;
+    border-radius: 5px;
+    padding: 7px;
+    object-fit: cover;
+}
+
+div.picture{
+    width: 400px;
+    height: 400px;
+}
+
+table.table2{
+    position: relative;
+    bottom: 30px;
+    right: 70px;
+}
+
+table.table2 tr td{
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+table.table2 tr td:first-child{
+    text-align: right;
+}
+
+p#description{
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 150px;
+    margin-bottom: 70px;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    line-height: 1.25em;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+footer{
+    color: gray;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    font-size: small;
+    letter-spacing: 0.1em;
+    text-align: center;
+}

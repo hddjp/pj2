@@ -1,0 +1,16 @@
+/*当界面逐渐缩小，先用原来样式，右边空白减少。之后用middle样式，main的float变成right，缩小左边空间。
+再缩小变成small，float恢复正常，缩小页面覆盖内容，最后变成移动端样式*/
+main{
+    float:right;
+    margin-left: 0px;
+    width: 950px;
+    margin-right: 1%;
+}
+
+section{
+    margin-top: 0px;
+}
+
+footer{
+    margin-top: 1750px;
+}

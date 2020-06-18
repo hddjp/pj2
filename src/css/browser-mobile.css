@@ -1,0 +1,208 @@
+body{
+    margin:0%;
+}
+
+/*所有header样式与index-mobile相同*/
+header{
+    text-align: center;
+    height: 70px;
+}
+
+nav{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.navigation{
+    margin: 3%;
+    margin-top: 0%;
+    font-size: 0.9rem;
+}
+
+.dropbt{
+    font-size: 0.9rem;
+    font-weight: bold;
+    height: 2em;
+    letter-spacing: 0.3em;
+    vertical-align: top;
+}
+
+.dropdown{
+    float:right;
+    margin-right: -3%;
+}
+
+.dropdown-content{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    vertical-align: middle; 
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 3% ,4%;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 80%;
+    height: 2em;
+}
+
+.dropbt:hover +.dropdown-content{
+    display: block;
+}
+
+.dropdown-content:hover{
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #1c1c1c
+}
+
+img.list{
+    position:relative;
+    top:2px
+}
+
+img.manu{
+    position: relative;
+    top:5px;
+    right:5px;
+}
+
+main{
+    background-color: #1c1c1c;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+section{
+    text-align: left;
+    margin-top: 100px;
+    margin-left:0%;
+    margin-bottom: 0%;
+}
+
+aside{
+    display: none;
+   position: absolute;
+   z-index: 8888;
+}
+
+hr{
+    background: solid;
+    background-color: #ff9800;
+    height: 5px;
+    width: 250px;
+    border: none;
+}
+
+body{
+    margin:0%;
+}
+
+.filter{
+    margin-top: 20px;
+    background-color: #1c1c1c;
+    color:white;
+    height: 40px;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+select.filter{
+    border: none;
+    margin: 3%;
+}
+
+input.filter{
+    font-weight: bolder;
+    background-color: #ff9800;
+    color: black;
+    border-color: #1c1c1c;
+    width: 80px;
+    margin-left: 50px;
+    border-radius: 10px;
+    position: relative;
+    left: 25%;
+    margin-top: 1%;
+}
+
+#tip{
+    color: gray;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+td{
+    padding:1vw;
+    padding-top: 5vw;
+}
+
+#page{
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+#page a{
+    color: white;;
+    margin:10px;
+    font-weight: bold;
+}
+
+#page a.pagenum{
+    border-bottom: white 1px solid;
+}
+
+footer{
+    color: gray;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-bottom: 50px;
+    position: relative;
+    letter-spacing: 0.1em;
+    text-align: center;  
+    font-size: 10px;
+}
+
+img.pic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*调整了图片大小*/
+div.pic{
+    height: 20vw;
+    width: 20vw;
+}
+
+/*触碰按钮或aside显示aside*/
+img.open{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 90%;
+    top: 15%;
+}
+
+img:hover +aside{
+    display: block;
+}
+
+aside:hover{
+    display: block;
+}

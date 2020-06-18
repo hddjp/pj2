@@ -1,0 +1,59 @@
+main{
+    background-color: #1c1c1c;
+    width:80%;
+    height: 400px;
+    top:50%;
+    left: 50%;
+    position: absolute;;
+    margin-left: -40%;
+    margin-top: -50%;
+    color: white;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    padding-top: 20px;
+}
+
+img.name,img.password,img.email{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top:10px;
+    margin-right: 5px;
+}
+
+input.name,input.password,input.email,input.confirm{
+    width: 70%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+p.contents{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#register{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom:15px;
+    height: 40px;
+    padding-left: 20px;
+    letter-spacing: 0.5em;
+}
+
+footer{
+    color: gray;
+    margin-top: 650px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    font-size: small;
+    letter-spacing: 0.1em;
+    text-align: center;
+}

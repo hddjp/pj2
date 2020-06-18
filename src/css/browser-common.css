@@ -1,0 +1,297 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+/*所有带有导航栏的界面样式均与主页相同*/
+header{
+    background-color:#1c1c1c;
+    text-align: center;
+    height: 70px;
+}
+
+nav{
+    margin-top: 30px;
+    float: left;
+    margin-left: 10%;
+    width: 90%;
+}
+
+.navigation{
+    font-weight:bold;
+    font-size: large;
+    margin: 1em;
+    margin-top: 0px;
+    color: white;
+    letter-spacing: 0.3em;
+    float: left;
+}
+
+
+a[name="browser"]{
+    border-bottom: #ff9800 7px solid;
+    padding-bottom: 15px;
+}
+
+.dropbt{
+    background-color: #1c1c1c;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    width: 8em;
+    height: 2em;
+    letter-spacing: 0.3em;
+    vertical-align: top;
+}
+
+.dropdown{
+    position: relative;
+    bottom: 5px;
+    float:right;
+    margin-right:10% ;
+}
+
+.dropdown-content{
+    font-weight: bold;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    vertical-align: middle; 
+    z-index: 9999;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    width: 8em;
+    height: 2em;
+}
+
+.dropbt:hover +.dropdown-content{
+    display: block;
+}
+
+.dropdown-content:hover{
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #1c1c1c
+}
+
+img.list{
+    position:relative;
+    top:2px
+}
+
+img.manu{
+    position: relative;
+    top:5px;
+    right:5px;
+}
+
+main{
+    background-color: #1c1c1c;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    width: 950px;
+}
+
+section{
+    text-align: left;
+    margin-top: 100px;
+    margin-left:50px;
+    margin-bottom: 50px;
+}
+
+aside{
+    float: left;
+    margin-top: 100px;
+    background-color:#1c1c1c;
+    text-align: center;
+    width: 300px;
+    height: 1200px;
+    z-index: 5000;
+}
+
+ul.aside{
+    margin-top: 50px;
+    color: white;
+}
+
+ul.aside li{
+    margin:20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 2em; 
+    letter-spacing: 0.2em;
+    display: inline-block;
+}
+
+ul.aside li p{
+    font-weight: bold;
+}
+
+ul.aside li p img{
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top:3px
+}
+
+/*侧边栏里小圆点位置调整*/
+img[name="disc1"]{
+    right:50px;
+}
+
+img[name="disc2"]{
+    right:30px;
+}
+
+img[name="disc3"]{
+    right:30px;
+}
+
+img[name="disc4"]{
+    right:30px;
+}
+
+/*分割线*/
+hr{
+    background: solid;
+    background-color: #ff9800;
+    height: 5px;
+    width: 250px;
+    border: none;
+}
+
+input.title{
+    background-color: #3a3637;
+    border: none;
+    outline: black;
+    width: 150px;
+    height: 30px;
+    color: white;
+    letter-spacing: 0.1em;
+    float: left;
+    margin-top: 5px;
+}
+
+input.search{
+    background-image: url(../../img/others/search.png);
+    border: none;
+    width: 50px;
+    height: 31px;
+    margin-top: 5px;
+    outline: none;
+    float: left;
+    cursor: pointer;
+}
+
+li a{
+    color: whitesmoke;
+    font-size: smaller;
+    border-bottom: white 1px solid;
+    padding-bottom: 0.5px;
+}
+
+.filter{
+    margin-top: 50px;
+    background-color: #1c1c1c;
+    color:white;
+    height: 40px;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+    outline: none;
+    font-size: 16px;
+}
+
+select.filter{
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+}
+
+input.filter{
+    font-weight: bolder;
+    background-color: #ff9800;
+    color: black;
+    border-color: #1c1c1c;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#tip{
+    color: gray;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#nothing{
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+td{
+    padding:20px;
+}
+
+#page{
+    margin-top: 30px;
+    margin-left: 230px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#page a{
+    color: white;;
+    margin:10px;
+    font-weight: bold;
+}
+
+#page a.pagenum{
+    border-bottom: white 1px solid;
+}
+
+footer{
+    color: gray;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    font-size: small;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+img.pic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+div.pic{
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+/*被隐藏的图标*/
+img.open{
+    width: 0px;
+    height: 0px;
+}
